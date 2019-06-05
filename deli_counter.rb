@@ -9,6 +9,6 @@ def line(array)
             line_queue += "#{line_position}. #{name} "
             line_position += 1
         end
-        puts line_queue.chomp
+        puts line_queue.strip
     end
 end
