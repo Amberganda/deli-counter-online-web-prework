@@ -4,9 +4,11 @@ def line(array)
 
     else
         line_position = 1
+        line_queue = "The Line is currently: "
         array.each do |name|
-
+            line_queue += "#{line_position}. #{name} "
+            line_position += 1
         end
-        puts "The line is currently: #{line_position}. #{name} "
+        puts line_queue
     end
 end
