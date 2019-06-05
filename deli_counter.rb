@@ -7,5 +7,6 @@ def line(array)
         array.each do |name|
             puts "The line is currently: #{line_position}. #{name} "
         end
+        line_position += 1
     end
 end
