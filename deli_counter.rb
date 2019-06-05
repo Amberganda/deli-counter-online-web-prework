@@ -5,6 +5,7 @@ def line(array)
     else
         line_position = 1
         array.each do |name|
-        puts "The line is currently: #{line_position}. #{name} "
+            puts "The line is currently: #{line_position}. #{name} "
+        end
     end
 end
